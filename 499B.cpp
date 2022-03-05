@@ -1,3 +1,32 @@
+// USING MAPS  👌👌👍💕
+#include <bits/stdc++.h>
+ 
+using namespace std;
+ 
+int main() 
+{
+	int n,m;
+	map <string,string> a;
+	cin>>n>>m;
+	string s,t;
+	while(m--)
+	{
+		cin>>s>>t;
+		a[s]=(t.size()<s.size()?t:s);
+	}
+	while(n--)
+	{
+		cin>>s;
+		cout<<a[s]<<' ';
+	}
+}
+
+
+
+// BRUTE FORCE 👍👍🌹
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 int find(string str, string s[], int m){
