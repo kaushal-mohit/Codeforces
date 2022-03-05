@@ -1,3 +1,5 @@
+//  //  Simple and tricky question even no need to calculate power XD.....😂😂🤣
+
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
